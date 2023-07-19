@@ -92,6 +92,7 @@ ul li .Follow-us {
     align-items: center;
     width: 76%;
     margin: 0 auto;
+    padding-top: 42px;
 }
 .img-text img {
     width: 580px;
@@ -149,7 +150,7 @@ ul li .Follow-us {
     width: 220px;
 }
 .single-card {
-    padding-bottom: 42px;
+    padding-bottom: 92px;
 }
 .single-card P{
     padding-top: -52px;
@@ -190,6 +191,68 @@ ul li .Follow-us {
 .single-card:hover .play-button{
     top: -152px;
 }
+
+/*  ---some-text-and-img-section--  */
+.text-and-img-about-games {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 240px;
+    padding-right: 124px;
+    align-items: center;
+    padding-bottom: 190px;
+}
+
+.text-about-games {
+    text-align: right;
+}
+.text-about-games h1 {
+    font-size: 36px;
+    padding-bottom: 18px;
+}
+.text-about-games p{
+    line-height: 21px;
+}
+.text-about-games span {
+    color: blue;
+}
+.text-and-img-about-games img {
+    width: 200px;
+    position: relative;
+    right: 330px;
+    top: 190px;
+}
+.img-about-games img {
+    width: 440px;
+    position: relative;
+    top: 30px;
+    bottom: 100px;
+    left: 160px;
+}
+
+/*  ---img-categories-section--  */
+.all-img-categories {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.all-img-categories .text h5 {
+    font-size: 18px;
+}
+.all-img-categories .img-ctgrs img {
+    width: 46px;
+}
+.games-categories-img {
+    display: flex;
+    justify-content: space-around;
+    width: 82%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    gap: 2px;
+}
+
+
+
+
 
 
 /*---- Responsive-section-----*/
@@ -261,6 +324,37 @@ ul li .Follow-us {
     }
     .single-card:hover .play-button{
         top: -222px;
+    }
+    .text-and-img-about-games {
+        flex-direction: column;
+    }
+    .text-and-img-about-games img {
+        width: 120px;
+        position: relative;
+        right: -30px;
+        top: -80px;
+        text-align: center;
+
+    }
+    .img-about-games img {
+        width: 280px;
+        text-align: center;
+        position: relative;
+        top: 30px;
+        bottom: 100px;
+        left: 160px;
+    }
+    .text-and-img-about-games {
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        padding-right: -700px;
+    }
+    .text-about-games {
+        text-align: center;
+    }
+    .games-categories-img {
+        width: 100%;
     }
     
 }
