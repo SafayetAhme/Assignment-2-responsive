@@ -206,7 +206,7 @@ ul li .Follow-us {
     text-align: right;
 }
 .text-about-games h1 {
-    font-size: 36px;
+    font-size: 32px;
     padding-bottom: 18px;
 }
 .text-about-games p{
@@ -248,9 +248,53 @@ ul li .Follow-us {
     flex-wrap: wrap;
     margin: 0 auto;
     gap: 2px;
+    padding-bottom: 100px;
 }
 
-
+/*  ---Footer-section--  */
+.footer-secton {
+    background-color: black;
+    color: white;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 22px;
+}
+.footer-pragrap {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 36px;
+    padding-top: 22px;
+}
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 32px;
+    padding-top: 32px;
+}
+.footer-text-site {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 32px;
+    padding-top: 32px;
+}
+.footer-last-text {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 112px;
+}
 
 
 
