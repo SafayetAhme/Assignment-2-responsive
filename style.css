@@ -1,6 +1,8 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 /*--Nav section--*/
 .nav-section {
@@ -60,6 +62,7 @@ ul li .Follow-us {
     font-size: 60px;
     padding-top: 8px;
     padding-bottom: 8px;
+    color: rgb(241, 41, 155);
 }
 .header-text p {
     padding-bottom: 6px;
@@ -71,14 +74,14 @@ ul li .Follow-us {
     margin-top: 22px;
 }
 .button-2 .btn-0 {
-    background-color: orange;
+    background-color: rgb(241, 41, 155);
     color: white;
     border: none;
     border-radius: 50px;
     padding: 14px 28px;
 }
 .button-2 .btn-1 {
-    background-color: rgb(0, 76, 255);
+    background-color: rgb(33, 120, 206);
     color: white;
     border: none;
     border-radius: 50px;
@@ -105,13 +108,14 @@ ul li .Follow-us {
     font-size: 36px;
     font-weight: 600;
     padding-bottom: 18px;
+    color: rgb(241, 41, 155);
 }
 .text-container p {
     line-height: 22px;
     padding-bottom: 18px;
 }
 .text-container .btn {
-    background-color: rebeccapurple;
+    background-color: rgb(241, 41, 155);
     border: none;
     padding: 12px 28px;
     border-radius: 50px;
@@ -155,9 +159,10 @@ ul li .Follow-us {
 .single-card P{
     padding-top: -52px;
     line-height: 20px;
+    font-size: 13px;
 }
 .video-text-section span {
-    color: blue;
+    color: rgb(241, 41, 155);
 }
 .single-card h4 {
     position: relative;
@@ -213,7 +218,7 @@ ul li .Follow-us {
     line-height: 21px;
 }
 .text-about-games span {
-    color: blue;
+    color: rgb(241, 41, 155);
 }
 .text-and-img-about-games img {
     width: 200px;
@@ -235,8 +240,18 @@ ul li .Follow-us {
     align-items: center;
     gap: 12px;
 }
+.all-img-categories {
+    padding: 4px;
+    border-radius: 50px;
+}
+.all-img-categories:hover {
+    border: 1.5px solid rgb(241, 41, 155);
+    padding: 4px;
+    border-radius: 50px;
+    color: rgb(241, 41, 155);
+}
 .all-img-categories .text h5 {
-    font-size: 18px;
+    font-size: 14px;
 }
 .all-img-categories .img-ctgrs img {
     width: 46px;
@@ -269,6 +284,7 @@ ul li .Follow-us {
     justify-content: center;
     text-align: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 36px;
     padding-top: 22px;
 }
@@ -294,6 +310,9 @@ ul li .Follow-us {
     text-align: center;
     padding-top: 18px;
     padding-bottom: 112px;
+}
+.footer-text h1 span {
+    color: rgb(241, 41, 155);
 }
 
 
